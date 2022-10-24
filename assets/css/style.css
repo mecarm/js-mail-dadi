@@ -4,10 +4,42 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #83c5be;
+}
+
 .d-none{
     display: none;
 }
 
 .d-show{
     display: block;
+}
+
+.container{
+    margin-top: 30vh;
+    text-align: center;
+}
+
+button{
+    margin: auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+input{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+label,
+input,
+button,
+h2{
+    margin-top: 15px;
 }

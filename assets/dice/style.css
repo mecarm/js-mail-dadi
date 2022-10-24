@@ -8,4 +8,25 @@
     width: 50%;
     margin: auto;
     text-align: center;
+    margin-top: 40vh;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.center{
+    text-align: center;
+}
+
+body{
+    background-color: #006d77;
+    color: #edf6f9;
+}
+
+.btn{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
 }
