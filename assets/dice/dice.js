@@ -1,6 +1,3 @@
-let player = "Tu"
-let Bot = "Computer"
-
 function tiraDado(){
     let numeroRandom1 = Math.floor(Math.random()* 6) + 1;
     let numeroRandom2 = Math.floor(Math.random()* 6) + 1;
