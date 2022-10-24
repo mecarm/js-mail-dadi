@@ -8,11 +8,17 @@ function tiraDado(){
 
     if ( numeroRandom1 === numeroRandom2 ) {
         document.querySelector('h1').innerHTML = 'Pareggio!';
+        document.querySelector('body').classList.remove('green', 'red');
+        document.querySelector('body').classList.add('blu');
     }
     else if( numeroRandom1 > numeroRandom2 ) {
         document.querySelector('h1').innerHTML = 'Hai vinto!';
+        document.querySelector('body').classList.remove('blu', 'red');
+        document.querySelector('body').classList.add('green');
     }
     else {
         document.querySelector('h1').innerHTML = 'Hai perso!';
+        document.querySelector('body').classList.remove('green', 'blu');
+        document.querySelector('body').classList.add('red');
     }
 }

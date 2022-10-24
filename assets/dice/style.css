@@ -30,3 +30,15 @@ body{
     padding: 10px 15px;
     border-radius: 10px;
 }
+
+.red{
+    background-color: red;
+}
+
+.blu{
+    background-color: #006d77;
+}
+
+.green{
+    background-color: #83c5be;
+}
