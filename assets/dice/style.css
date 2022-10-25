@@ -8,7 +8,7 @@
     width: 50%;
     margin: auto;
     text-align: center;
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 
 .d-flex{
@@ -41,4 +41,9 @@ body{
 
 .green{
     background-color: #83c5be;
+}
+
+#vittComputer,
+#vittGiocatore{
+    padding-top: 10px;
 }
